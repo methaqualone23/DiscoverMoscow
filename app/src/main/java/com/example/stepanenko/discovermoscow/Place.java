@@ -27,5 +27,4 @@ public class Place {
         placeDescription = placeDescriptionBase;
         placeName = placeNameBase;
     }
-
 }

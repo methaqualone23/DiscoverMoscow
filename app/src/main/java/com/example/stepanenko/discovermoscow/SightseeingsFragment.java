@@ -15,7 +15,6 @@ import java.util.ArrayList;
 public class SightseeingsFragment extends Fragment {
 
     public SightseeingsFragment() {
-        // Required empty public constructor
     }
 
     @Override
@@ -37,6 +36,5 @@ public class SightseeingsFragment extends Fragment {
 
         listView.setAdapter(itemsAdapter);
         return rootView;
-
     }
 }

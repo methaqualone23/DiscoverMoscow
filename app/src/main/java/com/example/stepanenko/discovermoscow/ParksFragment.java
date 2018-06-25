@@ -12,7 +12,6 @@ import java.util.ArrayList;
 public class ParksFragment extends Fragment {
 
     public ParksFragment() {
-        // Required empty public constructor
     }
 
     @Override
@@ -25,7 +24,6 @@ public class ParksFragment extends Fragment {
         places.add(new Place(R.drawable.izmailovo, "Izmailovo Kremlin", "Moscow's other, lesser known kremlin is a fairytale-like cultural complex modeled after Old Russia."));
         places.add(new Place(R.drawable.golosov, "Golosov Ravine", "Legends of time travel and magical woodland creatures bolster the natural charm of this verdant sanctuary in the midst of Moscow."));
         places.add(new Place(R.drawable.yard, "Old English Yard", "The \"Mystery and Company of Merchant Adventurers\" - an Elizabethan era hangout in Moscow."));
-/*        places.add(new Place(R.drawable, "", ""));*/
 
         PlaceAdapter itemsAdapter = new PlaceAdapter(getActivity(), places);
 
@@ -34,5 +32,4 @@ public class ParksFragment extends Fragment {
         listView.setAdapter(itemsAdapter);
         return rootView;
     }
-
 }

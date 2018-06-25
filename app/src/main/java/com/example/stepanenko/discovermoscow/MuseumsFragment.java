@@ -12,7 +12,6 @@ import java.util.ArrayList;
 public class MuseumsFragment extends Fragment {
 
     public MuseumsFragment() {
-        // Required empty public constructor
     }
 
     @Override
@@ -36,5 +35,4 @@ public class MuseumsFragment extends Fragment {
         listView.setAdapter(itemsAdapter);
         return rootView;
     }
-
 }
