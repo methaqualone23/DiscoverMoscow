@@ -6,8 +6,12 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
 class FragmentTabsPagerAdapter extends FragmentPagerAdapter {
+    public static final String SIGHTSEEINGS = "Sightseeings";
+    public static final String MUSEUMS = "Museums";
+    public static final String RESTAURANTS = "Restaurants";
+    public static final String PARKS = "Parks";
     final int PAGE_COUNT = 4;
-    private String tabTitles[] = new String[]{"Sightseeings", "Museums", "Restaurants", "Parks"};
+    private String tabTitles[] = new String[]{SIGHTSEEINGS, MUSEUMS, RESTAURANTS, PARKS};
     private Context context;
 
     public FragmentTabsPagerAdapter(FragmentManager fm) {
