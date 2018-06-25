@@ -19,4 +19,14 @@
     <string name="parks_golosov_description">Legends of time travel and magical woodland creatures bolster the natural charm of this verdant sanctuary in the midst of Moscow.</string>
     <string name="parks_yard_name">Old English Yard</string>
     <string name="parks_yard_description">The \"Mystery and Company of Merchant Adventurers\" - an Elizabethan era hangout in Moscow.</string>
+    <string name="restaurants_tsiferblat_name">Tsiferblat</string>
+    <string name="restaurants_tsiferblat_description">Embodiment of saying \'Time is money\': 2 rubles/minute.</string>
+    <string name="restaurants_timeoutbar_name">Time Out Bar</string>
+    <string name="restaurants_timeoutbat_description">One of the best cocktail bars in Moscow with an amazing panorama.</string>
+    <string name="restaurants_cheburek_name">Cheburek cafe</string>
+    <string name="restaurants_cheburek_description">A Soviet-style pub, best to make local friends.</string>
+    <string name="restaurants_danilovskiy_name">Danilovsky marketplace</string>
+    <string name="restaurants_danilovskiy_description">The former Soviet marketplace which was remade into a fancy farmer organic place.</string>
+    <string name="restaurants_maroseika_name">Maroseika and Pokrovka drinking streets</string>
+    <string name="restaurants_maroseika_description">Located next to the Kitai-Gorod metro station, every door here is a bar (although not every house).</string>
 </resources>

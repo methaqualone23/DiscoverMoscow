@@ -21,11 +21,11 @@ public class RestaurantsFragment extends Fragment {
 
         final ArrayList<Place> places = new ArrayList<>();
 
-        places.add(new Place(R.drawable.tsiferblat, "Tsiferblat", "Embodiment of saying 'Time is money': 2 rubles/minute."));
-        places.add(new Place(R.drawable.tomeoutbar, "Time Out Bar", "One of the best cocktail bars in Moscow with an amazing panorama."));
-        places.add(new Place(R.drawable.cheburek, "Cheburek cafe", "A Soviet-style pub, best to make local friends."));
-        places.add(new Place(R.drawable.danilovskiy, "Danilovsky marketplace", "The former Soviet marketplace which was remade into a fancy farmer organic place."));
-        places.add(new Place(R.drawable.maroseika, "Maroseika and Pokrovka drinking streets", "Located next to the Kitai-Gorod metro station, every door here is a bar (although not every house)."));
+        places.add(new Place(R.drawable.tsiferblat, getString(R.string.restaurants_tsiferblat_name), getString(R.string.restaurants_tsiferblat_description)));
+        places.add(new Place(R.drawable.tomeoutbar, getString(R.string.restaurants_timeoutbar_name), getString(R.string.restaurants_timeoutbat_description)));
+        places.add(new Place(R.drawable.cheburek, getString(R.string.restaurants_cheburek_name), getString(R.string.restaurants_cheburek_description)));
+        places.add(new Place(R.drawable.danilovskiy, getString(R.string.restaurants_danilovskiy_name), getString(R.string.restaurants_danilovskiy_description)));
+        places.add(new Place(R.drawable.maroseika, getString(R.string.restaurants_maroseika_name), getString(R.string.restaurants_maroseika_description)));
 
         PlaceAdapter itemsAdapter = new PlaceAdapter(getActivity(), places);
 
