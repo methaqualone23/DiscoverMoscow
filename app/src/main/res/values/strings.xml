@@ -1,4 +1,16 @@
 <resources>
     <string name="app_name">Discover Moscow</string>
     <string name="description">Description</string>
+    <string name="museums_games_name">Museum of Soviet Arcade Games</string>
+    <string name="museums_games_description">Immortal combat in a Moscow museum.</string>
+    <string name="museums_lenin_name">Lenin\'s Mausoleum</string>
+    <string name="museums_lenin_description">Embalmed remains of the leader of the Bolshevik Revolution.</string>
+    <string name="museums_sovietcosmonaut_name">Memorial Museum of Cosmonautics</string>
+    <string name="museums_sovietcosmonaut_description">Museum celebrating the achievements of the Soviet space program.</string>
+    <string name="museums_railway_name">Museum of the Moscow Railway</string>
+    <string name="museums_railway_description">This Russian locomotive museum was once devoted just to Lenin\'s funeral before expanding to encompass Moscow\'s entire train history.</string>
+    <string name="museums_bulgakov_name">Bulgakov Museum</string>
+    <string name="museums_bulgakov_description">Visit a \"bad apartment\", where Woland gave his ball.</string>
+    <string name="museums_animation_name">Museum of animation</string>
+    <string name="museums_animation_description">The magical world of animation.</string>
 </resources>

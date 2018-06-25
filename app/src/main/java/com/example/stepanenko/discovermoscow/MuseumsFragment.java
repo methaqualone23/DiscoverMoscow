@@ -21,12 +21,12 @@ public class MuseumsFragment extends Fragment {
 
         final ArrayList<Place> places = new ArrayList<>();
 
-        places.add(new Place(R.drawable.museum_games, "Museum of Soviet Arcade Games", "Immortal combat in a Moscow museum."));
-        places.add(new Place(R.drawable.lenin, "Lenin's Mausoleum", "Embalmed remains of the leader of the Bolshevik Revolution."));
-        places.add(new Place(R.drawable.sovietcosmonaut, "Memorial Museum of Cosmonautics", "Museum celebrating the achievements of the Soviet space program."));
-        places.add(new Place(R.drawable.railway, "Museum of the Moscow Railway", "This Russian locomotive museum was once devoted just to Lenin's funeral before expanding to encompass Moscow's entire train history."));
-        places.add(new Place(R.drawable.bulgakov, "Bulgakov Museum", "Visit a \"bad apartment\", where Woland gave his ball."));
-        places.add(new Place(R.drawable.animation, "Museum of animation", "The magical world of animation."));
+        places.add(new Place(R.drawable.museum_games, getString(R.string.museums_games_name), getString(R.string.museums_games_description)));
+        places.add(new Place(R.drawable.lenin, getString(R.string.museums_lenin_name), getString(R.string.museums_lenin_description)));
+        places.add(new Place(R.drawable.sovietcosmonaut, getString(R.string.museums_sovietcosmonaut_name), getString(R.string.museums_sovietcosmonaut_description)));
+        places.add(new Place(R.drawable.railway, getString(R.string.museums_railway_name), getString(R.string.museums_railway_description)));
+        places.add(new Place(R.drawable.bulgakov, getString(R.string.museums_bulgakov_name), getString(R.string.museums_bulgakov_description)));
+        places.add(new Place(R.drawable.animation, getString(R.string.museums_animation_name), getString(R.string.museums_animation_description)));
 
         PlaceAdapter itemsAdapter = new PlaceAdapter(getActivity(), places);
 
