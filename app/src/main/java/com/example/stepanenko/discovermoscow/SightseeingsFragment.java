@@ -1,13 +1,10 @@
 package com.example.stepanenko.discovermoscow;
 
-import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -24,11 +21,11 @@ public class SightseeingsFragment extends Fragment {
 
         final ArrayList<Place> places = new ArrayList<>();
 
-        places.add(new Place(R.drawable.bunker42, "Bunker-42", "Dr. Strangelove-esque tours inside a bunker under Moscow's streets once reserved for Stalin himself."));
-        places.add(new Place(R.drawable.children, "Children are the Victims of Adult Vices", "Thirteen sculptures in central Moscow graphically depicting vices of the modern world."));
-        places.add(new Place(R.drawable.moscow_city_lights, "Miniature Moscow", "Back in the tiny USSR."));
-        places.add(new Place(R.drawable.melnikov, "Melnikov House", "House-studio of the architect Melnikov, a world-famous masterpiece of the Soviet avant-garde."));
-        places.add(new Place(R.drawable.dominion, "Dominion Tower", "The Most Abstract Building in Moscow."));
+        places.add(new Place(R.drawable.bunker42, getString(R.string.places_bunker_name), getString(R.string.places_bunker_description)));
+        places.add(new Place(R.drawable.children, getString(R.string.places_chilren_name), getString(R.string.places_children_description)));
+        places.add(new Place(R.drawable.moscow_city_lights, getString(R.string.places_miniature_name), getString(R.string.places_miniature_description)));
+        places.add(new Place(R.drawable.melnikov, getString(R.string.places_melnikov_name), getString(R.string.places_melnikov_description)));
+        places.add(new Place(R.drawable.dominion, getString(R.string.places_dominion_name), getString(R.string.places_dominion_description)));
 
         PlaceAdapter itemsAdapter = new PlaceAdapter(getActivity(), places);
 

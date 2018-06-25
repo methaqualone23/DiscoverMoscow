@@ -29,4 +29,14 @@
     <string name="restaurants_danilovskiy_description">The former Soviet marketplace which was remade into a fancy farmer organic place.</string>
     <string name="restaurants_maroseika_name">Maroseika and Pokrovka drinking streets</string>
     <string name="restaurants_maroseika_description">Located next to the Kitai-Gorod metro station, every door here is a bar (although not every house).</string>
+    <string name="places_bunker_name">Bunker-42</string>
+    <string name="places_bunker_description">Dr. Strangelove-esque tours inside a bunker under Moscow\'s streets once reserved for Stalin himself.</string>
+    <string name="places_chilren_name">Children are the Victims of Adult Vices</string>
+    <string name="places_children_description">Thirteen sculptures in central Moscow graphically depicting vices of the modern world.</string>
+    <string name="places_miniature_name">Miniature Moscow</string>
+    <string name="places_miniature_description">Back in the tiny USSR.</string>
+    <string name="places_melnikov_name">Melnikov House</string>
+    <string name="places_melnikov_description">House-studio of the architect Melnikov, a world-famous masterpiece of the Soviet avant-garde.</string>
+    <string name="places_dominion_name">Dominion Tower</string>
+    <string name="places_dominion_description">The Most Abstract Building in Moscow.</string>
 </resources>
