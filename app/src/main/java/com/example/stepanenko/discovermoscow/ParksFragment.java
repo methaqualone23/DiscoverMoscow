@@ -21,9 +21,9 @@ public class ParksFragment extends Fragment {
 
         final ArrayList<Place> places = new ArrayList<>();
 
-        places.add(new Place(R.drawable.izmailovo, "Izmailovo Kremlin", "Moscow's other, lesser known kremlin is a fairytale-like cultural complex modeled after Old Russia."));
-        places.add(new Place(R.drawable.golosov, "Golosov Ravine", "Legends of time travel and magical woodland creatures bolster the natural charm of this verdant sanctuary in the midst of Moscow."));
-        places.add(new Place(R.drawable.yard, "Old English Yard", "The \"Mystery and Company of Merchant Adventurers\" - an Elizabethan era hangout in Moscow."));
+        places.add(new Place(R.drawable.izmailovo, getString(R.string.parks_izmailovo_name), getString(R.string.parks_izmailovo_description)));
+        places.add(new Place(R.drawable.golosov, getString(R.string.parks_golosov_name), getString(R.string.parks_golosov_description)));
+        places.add(new Place(R.drawable.yard, getString(R.string.parks_yard_name), getString(R.string.parks_yard_description)));
 
         PlaceAdapter itemsAdapter = new PlaceAdapter(getActivity(), places);
 

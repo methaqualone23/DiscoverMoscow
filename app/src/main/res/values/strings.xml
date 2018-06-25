@@ -13,4 +13,10 @@
     <string name="museums_bulgakov_description">Visit a \"bad apartment\", where Woland gave his ball.</string>
     <string name="museums_animation_name">Museum of animation</string>
     <string name="museums_animation_description">The magical world of animation.</string>
+    <string name="parks_izmailovo_name">Izmailovo Kremlin</string>
+    <string name="parks_izmailovo_description">Moscow\'s other, lesser known kremlin is a fairytale-like cultural complex modeled after Old Russia.</string>
+    <string name="parks_golosov_name">Golosov Ravine</string>
+    <string name="parks_golosov_description">Legends of time travel and magical woodland creatures bolster the natural charm of this verdant sanctuary in the midst of Moscow.</string>
+    <string name="parks_yard_name">Old English Yard</string>
+    <string name="parks_yard_description">The \"Mystery and Company of Merchant Adventurers\" - an Elizabethan era hangout in Moscow.</string>
 </resources>
